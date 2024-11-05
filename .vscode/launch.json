@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringsecurityApplication<springsecurity>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.marouanedbibih.springsecurity.SpringsecurityApplication",
+            "projectName": "springsecurity",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

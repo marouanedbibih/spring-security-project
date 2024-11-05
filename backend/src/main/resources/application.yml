@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  # Application
+  application:
+    name: spring-security-backend
+
+  # Datasource
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3307/spring-security?createDatabaseIfNotExist=true&useSSL=false&useSSL=false&allowPublicKeyRetrieval=true}
+    username: marouane
+    password: Marouane@2001
+
+  # JPA
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
